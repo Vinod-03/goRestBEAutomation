@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="API Automation Suite" verbose="1" parallel="false">
+
+    <test name="Get Users Tests">
+        <classes>
+            <class name="gorestgetusers.GetUsersTest"/>
+            <class name="CreateuserScenerious.CreateUserTest"/>
+            <class name="UserUpdate.UserUpdateByIdTest"/>
+
+        </classes>
+    </test>
+
+</suite>
