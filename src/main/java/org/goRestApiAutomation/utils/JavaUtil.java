@@ -18,4 +18,5 @@ public class JavaUtil {
                 .replace("-", "")
                 .substring(0, length);
     }
+
 }
